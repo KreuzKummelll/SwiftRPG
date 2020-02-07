@@ -8,7 +8,9 @@
 
 import UIKit
 
-class FaceViewController: UIViewController {
+class FaceViewController: UIViewController, Storyboarded {
+    
+    var coordinator: Coordinator?
 
     @IBOutlet weak var slide1: UISlider!
     @IBOutlet weak var slide2: UISlider!
@@ -48,6 +50,8 @@ class FaceViewController: UIViewController {
         l4.text = "Position:\(slide4.value)"
         l5.text = "Size:\(slide5.value)"
     }
+    
+    
     
     /*
     // MARK: - Navigation

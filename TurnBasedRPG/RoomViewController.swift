@@ -8,7 +8,7 @@
 
 import UIKit
 //** This is the main view controller for navigating the map*/
-class RoomViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class RoomViewController: UIViewController, Storyboarded, UICollectionViewDelegate, UICollectionViewDataSource {
     
     @IBOutlet weak var oNorth: UIButtonGUI!
     @IBOutlet weak var oSouth: UIButtonGUI!
@@ -17,6 +17,8 @@ class RoomViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     @IBOutlet weak var roomName: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
+    
+    var coordinator: Coordinator?
     
     var currentRoom:RoomNode?
     var roomView: RoomView?

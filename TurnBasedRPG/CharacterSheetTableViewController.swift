@@ -10,6 +10,7 @@ import UIKit
 
 class CharacterSheetTableViewController: UITableViewController, ReloadProtocol {
 
+    var coordinator: Coordinator?
     
     let db: GameDatabase = GameDatabase.shared
     lazy var keyring = db.hero.stats.keys.sorted()

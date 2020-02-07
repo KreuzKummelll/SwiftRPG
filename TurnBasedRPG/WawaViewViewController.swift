@@ -9,7 +9,9 @@
 import UIKit
 import AVFoundation
 
-class WawaViewViewController: UIViewController {
+class WawaViewViewController: UIViewController, Storyboarded {
+    
+    var coordinator: Coordinator?
 
     @IBOutlet weak var scanLine: ScanLine!
     var bombSoundEffect: AVAudioPlayer?

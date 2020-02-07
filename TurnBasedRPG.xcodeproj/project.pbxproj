@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490FE5E723EDE60F00404FCB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FE5E623EDE60F00404FCB /* Coordinator.swift */; };
+		490FE5E923EDE6BA00404FCB /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FE5E823EDE6BA00404FCB /* Storyboarded.swift */; };
+		490FE5EB23EDE70A00404FCB /* Keyboard+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FE5EA23EDE70A00404FCB /* Keyboard+Helpers.swift */; };
+		490FE5F023EDE8DB00404FCB /* InitialViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FE5EF23EDE8DB00404FCB /* InitialViewCoordinator.swift */; };
+		490FE5F223EE025B00404FCB /* BattleViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FE5F123EE025B00404FCB /* BattleViewCoordinator.swift */; };
+		490FE5F423EE02EF00404FCB /* RoomViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FE5F323EE02EF00404FCB /* RoomViewCoordinator.swift */; };
+		490FE5F623EE033F00404FCB /* InventoryTableViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FE5F523EE033F00404FCB /* InventoryTableViewCoordinator.swift */; };
+		490FE5F823EE039600404FCB /* WawaViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FE5F723EE039600404FCB /* WawaViewCoordinator.swift */; };
+		490FE5FA23EE03DA00404FCB /* FaceViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FE5F923EE03DA00404FCB /* FaceViewCoordinator.swift */; };
+		490FE5FC23EE044D00404FCB /* CharacterSheetTableViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FE5FB23EE044D00404FCB /* CharacterSheetTableViewCoordinator.swift */; };
+		490FE5FE23EE0DE600404FCB /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490FE5FD23EE0DE600404FCB /* MainCoordinator.swift */; };
 		820150922132C0FD006A4B80 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820150912132C0FD006A4B80 /* Character.swift */; };
 		820150942132CC2B006A4B80 /* Build.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820150932132CC2B006A4B80 /* Build.swift */; };
 		8201509621332F7B006A4B80 /* RoomNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8201509521332F7B006A4B80 /* RoomNode.swift */; };
@@ -90,6 +101,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490FE5E623EDE60F00404FCB /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		490FE5E823EDE6BA00404FCB /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		490FE5EA23EDE70A00404FCB /* Keyboard+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keyboard+Helpers.swift"; sourceTree = "<group>"; };
+		490FE5EF23EDE8DB00404FCB /* InitialViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewCoordinator.swift; sourceTree = "<group>"; };
+		490FE5F123EE025B00404FCB /* BattleViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleViewCoordinator.swift; sourceTree = "<group>"; };
+		490FE5F323EE02EF00404FCB /* RoomViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewCoordinator.swift; sourceTree = "<group>"; };
+		490FE5F523EE033F00404FCB /* InventoryTableViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryTableViewCoordinator.swift; sourceTree = "<group>"; };
+		490FE5F723EE039600404FCB /* WawaViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WawaViewCoordinator.swift; sourceTree = "<group>"; };
+		490FE5F923EE03DA00404FCB /* FaceViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewCoordinator.swift; sourceTree = "<group>"; };
+		490FE5FB23EE044D00404FCB /* CharacterSheetTableViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSheetTableViewCoordinator.swift; sourceTree = "<group>"; };
+		490FE5FD23EE0DE600404FCB /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		820150912132C0FD006A4B80 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		820150932132CC2B006A4B80 /* Build.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build.swift; sourceTree = "<group>"; };
 		8201509521332F7B006A4B80 /* RoomNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomNode.swift; sourceTree = "<group>"; };
@@ -187,6 +209,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		490FE5EC23EDE76B00404FCB /* Coordinator+Paradigm */ = {
+			isa = PBXGroup;
+			children = (
+				490FE5E823EDE6BA00404FCB /* Storyboarded.swift */,
+				490FE5E623EDE60F00404FCB /* Coordinator.swift */,
+				490FE5FB23EE044D00404FCB /* CharacterSheetTableViewCoordinator.swift */,
+				490FE5F923EE03DA00404FCB /* FaceViewCoordinator.swift */,
+				490FE5F723EE039600404FCB /* WawaViewCoordinator.swift */,
+				490FE5F323EE02EF00404FCB /* RoomViewCoordinator.swift */,
+				490FE5F123EE025B00404FCB /* BattleViewCoordinator.swift */,
+				490FE5EF23EDE8DB00404FCB /* InitialViewCoordinator.swift */,
+				490FE5F523EE033F00404FCB /* InventoryTableViewCoordinator.swift */,
+				490FE5FD23EE0DE600404FCB /* MainCoordinator.swift */,
+			);
+			path = "Coordinator+Paradigm";
+			sourceTree = "<group>";
+		};
 		8201509D213A8DA7006A4B80 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +233,7 @@
 				827C045A2132922B008998C0 /* Assets.xcassets */,
 				827C045C2132922B008998C0 /* LaunchScreen.storyboard */,
 				827C045321329228008998C0 /* AppDelegate.swift */,
+				490FE5EA23EDE70A00404FCB /* Keyboard+Helpers.swift */,
 			);
 			path = "Support Files";
 			sourceTree = "<group>";
@@ -283,6 +323,7 @@
 		827C045221329228008998C0 /* TurnBasedRPG */ = {
 			isa = PBXGroup;
 			children = (
+				490FE5EC23EDE76B00404FCB /* Coordinator+Paradigm */,
 				96CAE7CD23D455E00017019E /* CharacterSheetTableViewController.swift */,
 				9693FA40230FB3B600867915 /* FaceViewController.swift */,
 				822C3239221E9FDC00ECFA9E /* WawaViewViewController.swift */,
@@ -514,6 +555,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490FE5FC23EE044D00404FCB /* CharacterSheetTableViewCoordinator.swift in Sources */,
 				82D72A2B216060C60081709D /* BattleViewController.swift in Sources */,
 				8201509621332F7B006A4B80 /* RoomNode.swift in Sources */,
 				827C045621329228008998C0 /* InitialViewController.swift in Sources */,
@@ -521,28 +563,38 @@
 				827C04822132928A008998C0 /* PopUp.swift in Sources */,
 				822C323C221EA0D000ECFA9E /* ScanLine.swift in Sources */,
 				822C323A221E9FDC00ECFA9E /* WawaViewViewController.swift in Sources */,
+				490FE5F823EE039600404FCB /* WawaViewCoordinator.swift in Sources */,
+				490FE5F623EE033F00404FCB /* InventoryTableViewCoordinator.swift in Sources */,
 				820150942132CC2B006A4B80 /* Build.swift in Sources */,
 				9607315523CECC270070A869 /* Equipment.swift in Sources */,
 				820150A7213B3894006A4B80 /* HealthBar.swift in Sources */,
+				490FE5FA23EE03DA00404FCB /* FaceViewCoordinator.swift in Sources */,
 				96CAE7CA23D3073F0017019E /* InventoryTableViewController.swift in Sources */,
 				96CAA1402340A87F009C6A3B /* Mouth.swift in Sources */,
 				9693FA41230FB3B600867915 /* FaceViewController.swift in Sources */,
 				820150922132C0FD006A4B80 /* Character.swift in Sources */,
 				965644E0231DDF6800403EA9 /* FaceView.swift in Sources */,
 				96CAE7CE23D455E00017019E /* CharacterSheetTableViewController.swift in Sources */,
+				490FE5F023EDE8DB00404FCB /* InitialViewCoordinator.swift in Sources */,
 				827C045421329228008998C0 /* AppDelegate.swift in Sources */,
+				490FE5F223EE025B00404FCB /* BattleViewCoordinator.swift in Sources */,
 				820150A5213B308C006A4B80 /* Magic.swift in Sources */,
+				490FE5F423EE02EF00404FCB /* RoomViewCoordinator.swift in Sources */,
 				96CAE7CC23D452250017019E /* GameDatabase.swift in Sources */,
 				823F4F04214CE26600A3573B /* Burst.swift in Sources */,
 				8201509A21334097006A4B80 /* RoomViewController.swift in Sources */,
+				490FE5EB23EDE70A00404FCB /* Keyboard+Helpers.swift in Sources */,
 				82D72A2D2161FC9E0081709D /* AreaGenerator.swift in Sources */,
 				827C0484213292B7008998C0 /* UIButtonGUI.swift in Sources */,
+				490FE5E723EDE60F00404FCB /* Coordinator.swift in Sources */,
 				9693FA3F230FAEF500867915 /* Eye.swift in Sources */,
+				490FE5FE23EE0DE600404FCB /* MainCoordinator.swift in Sources */,
 				9672DE8A22E413FA0080984F /* RoomView.swift in Sources */,
 				8201509821332FEA006A4B80 /* Mobile.swift in Sources */,
 				96CAA1422340C0DB009C6A3B /* SoundController.swift in Sources */,
 				9693FA3C230A168700867915 /* BattleMenu.swift in Sources */,
 				820150A1213A8EEA006A4B80 /* Face.swift in Sources */,
+				490FE5E923EDE6BA00404FCB /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

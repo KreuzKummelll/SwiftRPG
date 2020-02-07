@@ -8,11 +8,13 @@
 
 import UIKit
 
-class InitialViewController: UIViewController {
+class InitialViewController: UIViewController, Storyboarded {
     
     @IBOutlet weak var status: UILabel!
     var numbers:[Int] = []
     var power:[Int] = []
+    
+    var coordinator: Coordinator?
     
     
     override func viewDidLoad() {
